@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B5333911DABD18500B51368 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5333901DABD18500B51368 /* Package.swift */; };
 		5BD227D31DABCF51004C2236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD227D21DABCF51004C2236 /* AppDelegate.swift */; };
 		5BD227D51DABCF51004C2236 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD227D41DABCF51004C2236 /* ViewController.swift */; };
 		5BD227D81DABCF51004C2236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD227D61DABCF51004C2236 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B5333901DABD18500B51368 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		5BD227CF1DABCF51004C2236 /* spotify-api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spotify-api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD227D21DABCF51004C2236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BD227D41DABCF51004C2236 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				5BD227D91DABCF51004C2236 /* Assets.xcassets */,
 				5BD227DB1DABCF51004C2236 /* LaunchScreen.storyboard */,
 				5BD227DE1DABCF51004C2236 /* Info.plist */,
+				5B5333901DABD18500B51368 /* Package.swift */,
 			);
 			path = "spotify-api";
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5333911DABD18500B51368 /* Package.swift in Sources */,
 				5BD227D51DABCF51004C2236 /* ViewController.swift in Sources */,
 				5BD227D31DABCF51004C2236 /* AppDelegate.swift in Sources */,
 			);
@@ -410,6 +414,7 @@
 				5BD227EE1DABCF51004C2236 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BD227EF1DABCF51004C2236 /* Build configuration list for PBXNativeTarget "spotify-apiTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +423,7 @@
 				5BD227F11DABCF51004C2236 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
